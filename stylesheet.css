@@ -1,0 +1,272 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{
+    width:100%
+    
+}
+body{
+    width:100%;
+    min-height:100vh;
+}
+
+ .nav-list li {
+    display:inline;
+    margin:48px;}
+
+.nav-list li a{
+    text-decoration:none;
+    font-size:16px;
+    font-style:normal;
+    color:black;
+ }
+.logo{
+    padding-left:120px;
+
+}
+
+header { 
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1280px; 
+    height: 162px;
+    background-color: #f5f5f5;
+}
+
+.nav-list{
+    font-family: "Arial";
+}
+
+#contact-me{
+    width:132px;
+    height:42px;
+    border:1px solid black;
+    border-radius: 12px;
+    padding:10px 20px 12px 20px;
+    margin-right:120px;
+}
+#contact-me:hover{
+    background-color:black;
+    color: white;
+}
+
+#lets-get-in-touch{
+    width:215px;
+    height:63px;
+    border-radius:12px;
+    margin-top: 60px;
+    margin-left: 40%;
+    background-color:white;
+}
+#lets-get-in-touch:hover{
+    background-color:black;
+    color: white;
+}
+
+
+.work-process-section{
+    background-color: #e5e5e5;
+    border-radius:24px;
+
+}
+.page-section {
+    background-color: #f2f2f2;
+    color: black;
+    font-size: 22px;
+    line-height:27px;
+    text-align:center;
+    margin-bottom:60px;
+    margin-top:60px;
+   
+}
+img {
+    border-radius: 24px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:1040px;
+    height:360px;
+}
+p{
+    text-align:center;
+    font-size:86px;
+    font-family: "Arial";
+    font-style: italic;
+    margin-top:60px;
+    margin-bottom:60px;
+    margin-left:120px;
+    margin-right:120px;
+}
+p1, p5{
+    text-align: center;
+    font-size:20px;
+    font-style:italic;
+    display: block;
+    margin-top:20px;
+    
+}
+
+h1, h2 {
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.card-image{
+    width: 325px;
+    padding: 0px;
+    padding-bottom: 32px;
+}
+.card{
+    width: 325px;
+    height: 486px;
+    display:inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin-left:60px;
+    border-radius:  24px;
+    background-color: white;
+}
+
+.cards{
+    width: 1280px;
+    height:709px;
+    
+}
+.item-heading {
+    font-size: 56px;
+    margin:0px;
+}
+.item-number{
+    font-size: 22px;
+    border-radius:50%;
+    width:34px;
+    padding: 5px;
+    border:2px solid;
+    text-align:center;
+}
+.item-top{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    border-bottom: 1px solid #333;
+    padding: 0 0px 20px 0;
+}
+.item-para{
+    padding:0;
+    text-align: left;
+}
+.work-process-item{
+    width:100%;
+    max-width:1016px;
+    margin: 0 auto;
+    padding-bottom:30px;
+
+}
+
+h3 { 
+    color: white;
+    font-size:56px;
+    font-style: italic;
+    font-weight: 300;
+    text-align: center;
+    padding-top:60px;
+}
+p4 {
+    font-size: 18px;
+    font-style: normal;
+    text-align: center;
+    display: block;
+    color: white;
+    padding-bottom: 40px;
+    padding-top:40px;
+}
+.contact-form {
+    background-color: #282828;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    width:1280px;
+    height:656px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+textarea#message{
+    background-color: #373737;
+    width: 540px;
+    height:82px;
+}
+input#name{
+    background-color: #373737;
+    width:260px;
+    height:45px;
+    
+}
+input#e-mail{
+    background-color: #373737;
+    width:260px;
+    height:45px;
+}
+input#button-sendmessage{
+    background-color: #373737;
+    
+}
+#button-sendmessage{
+width:198px;
+height:63px;
+color:white; 
+border-radius: 24px;
+font-size:20px;
+border: 1px solid white;
+}
+form{
+    width:540px;
+}
+footer{
+    background-color: #373737;
+    width: 1280px;
+    height: 162px;
+    display:flex;
+    align-items: center;
+}
+
+ul.bio-links{
+list-style-type: none;
+display:flex;
+justify-content:space-between;
+margin-right: 60px;
+color:grey;
+font-size:16;
+}
+.bio-links li a {
+    text-decoration:none;
+    color:white;
+
+}
+.name{
+font-size: 20px;
+font-weight: 600;
+color: grey;
+}
+
+.main-content{
+width:1280px;
+margin-top:60px;
+}
+.footer-elements{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+    margin: auto;
+}
+.div{
+    width:1280px;
+}
